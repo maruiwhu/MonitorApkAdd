@@ -10,13 +10,11 @@ monitor an apk file new create
    $ pip install watchdog
    ```
    
-3. 修改脚本中的自定义文件
-   DIRECTORY_NAME 修改为自己的中转站文件夹名称
-   appStartCmd 修改为需要启动的应用主入口
-4. 命令行运行python 脚本
+
+3. 命令行运行python 脚本
 ```
- python .\monitorFile.py
+ python .\monitorFile.py 路径
  ```
-  
-5.  Ctrl+C 结束运行 
+  
+4.  Ctrl+C 结束运行 
   
